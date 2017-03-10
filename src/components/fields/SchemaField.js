@@ -170,7 +170,7 @@ function SchemaFieldRender(props) {
     <FieldComponent
       {...props}
       schema={schema}
-      uiSchema={{ ...uiSchema, classNames: undefined }}
+      uiSchema={{ ...uiSchema }}
       disabled={disabled}
       readonly={readonly}
       autofocus={autofocus}
