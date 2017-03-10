@@ -63,7 +63,7 @@ class ObjectField extends Component {
       );
     }
     return (
-      <fieldset>
+      <div>
         {title &&
           <TitleField
             id={`${idSchema.$id}__title`}
@@ -96,7 +96,7 @@ class ObjectField extends Component {
             />
           );
         })}
-      </fieldset>
+      </div>
     );
   }
 }
