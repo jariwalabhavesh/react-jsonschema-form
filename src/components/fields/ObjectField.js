@@ -63,7 +63,7 @@ class ObjectField extends Component {
       );
     }
     return (
-      <div class="fields">
+      <div className="fields">
         {title &&
           <TitleField
             id={`${idSchema.$id}__title`}
