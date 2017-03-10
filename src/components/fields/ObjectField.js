@@ -62,8 +62,9 @@ class ObjectField extends Component {
         </div>
       );
     }
+    const finalClass = (this.props.uiSchema && this.props.uiSchema.classNames)?this.props.uiSchema.classNames:"";
     return (
-      <div className={(idSchema.$id && idSchema.$id !== "root")?"fields":""}>
+      <div className={finalClass}>
         {title &&
           <TitleField
             id={`${idSchema.$id}__title`}
