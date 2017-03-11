@@ -62,7 +62,7 @@ class ObjectField extends Component {
         </div>
       );
     }
-    const finalClass = (this.props.uiSchema && this.props.uiSchema.classNames)?this.props.uiSchema.classNames:"";
+    const finalClass = (this.props.schema && this.props.schema.classNames)?this.props.schema.classNames:"";
     return (
       <div className={finalClass}>
         {title &&
