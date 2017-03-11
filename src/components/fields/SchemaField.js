@@ -170,7 +170,7 @@ function SchemaFieldRender(props) {
     <FieldComponent
       {...props}
       schema={schema}
-      uiSchema={{ ...uiSchema }}
+      uiSchema={{ ...uiSchema, classNames: undefined }}
       disabled={disabled}
       readonly={readonly}
       autofocus={autofocus}
@@ -190,7 +190,8 @@ function SchemaFieldRender(props) {
     "form-group",
     "field",
     `field-${type}`,
-    errors && errors.length > 0 ? "field-error has-error has-danger" : ""
+    errors && errors.length > 0 ? "field-error has-error has-danger" : "",
+    uiSchema.classNames
   ]
     .join(" ")
     .trim();
