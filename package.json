@@ -28,7 +28,7 @@
     "node": ">=6"
   },
   "peerDependencies": {
-    "react": "^15.0.0""https://github.com/mozilla-services/react-jsonschema-form
+    "react": "^15.0.0"
   },
   "dependencies": {
     "jsonschema": "^1.0.2",
@@ -70,7 +70,7 @@
     "react-transform-catch-errors": "^1.0.0",
     "react-transform-hmr": "^1.0.1",
     "redbox-react": "^1.3.3",
-    "rimraf": "^2.5.4","https://github.com/mozilla-services/react-jsonschema-form
+    "rimraf": "^2.5.4",
     "sinon": "^1.17.6",
     "style-loader": "^0.13.1",
     "toctoc": "^0.2.3",
