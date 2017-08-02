@@ -221,7 +221,7 @@ class ArrayField extends Component {
       }
       const { formData, onChange } = this.props;
       // refs #195: revalidate to ensure properly reindexing errors
-      onChange(formData.filter((_, i) => i !== index), { validate: true });
+      onChange(formData.filter((_, i) => i !== index), { validate: false });
     };
   };
 
@@ -242,7 +242,7 @@ class ArrayField extends Component {
             return item;
           }
         }),
-        { validate: true }
+        { validate: false }
       );
     };
   };
